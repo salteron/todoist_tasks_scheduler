@@ -1,0 +1,11 @@
+I wake up at {{ .DayStart }}, go to sleep at {{ .DayEnd }}.
+
+Schedule following tasks for today:
+
+{{ .Tasks }}
+
+Output only tabular data with columns: "title", "start time", "end time", "duration", "project".
+
+Tasks with the specified start time come first.
+
+{{ .Extension }}

@@ -1,0 +1,1 @@
+{{ .DayStart }}, {{ .DayEnd }}, {{ .Tasks }}, {{ .Extension }}
